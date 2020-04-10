@@ -220,16 +220,16 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 /* @TODO
  * 1. Deduplication cookie management
  * 2. Multiple partner id support from user fields
- * 3. Check if possible to copy events from FB Pixel
+ * 3. Check if possible to copy data from FB Pixel & Google Ads events
  * 4. Optionally double hash email with sha256 if not plain text
- * 5. Enhanced error logging feature
- * 6. Query permissions before trying to run script
+ * 5. Enhanced error logging 
+ * 6. Query permissions before running the actual script
  * 7. Add vertical specific parameter templates
  * 8. Add search events support
- * 9. Add Flush event feature for multiple partner setup w/ different setup
+ * 9. Add Flush event feature for multiple partner deployment w/ different setups
  * 10. Change viewHome fallback logic
- * 11. When automatic detection is selected, enable user to choose a variable (!?)
- * 12. Add help text for each field
+ * 11. When automatic detection is selected, enable user to choose a source variable (!?)
+ * 12. Add help text/tooltip for each field
  * 13. Detect d-m-t without user input
  * 14. Fire home page event if path=/|/index.(html|asp|aspx)
 */
